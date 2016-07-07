@@ -24,4 +24,3 @@ public static void main(String[]x){
 	i+=1;
 	}
 	}	
-}
