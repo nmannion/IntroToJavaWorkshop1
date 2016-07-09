@@ -13,6 +13,7 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import javax.swing.JApplet;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
@@ -50,6 +51,10 @@ addMouseMotionListener(this);
 				// call the scare method
 		scare();
 		//10. if the mouse is on the end color
+		}
+		int end=-118006;
+		if(mouseColor==end){
+		JOptionPane.showMessageDialog(null, "gg m8");
 		}
 				// pop up a message to tell them they won
 	}
